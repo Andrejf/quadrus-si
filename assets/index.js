@@ -61,7 +61,7 @@ import {
     examples,
     rules,
     supporters
-} from "/assets/lang/fr.js";
+} from "assets/lang/sl.js";
 var et = Ke(Fe => {
     const is = function() {
         const s = document.createElement("link").relList;
