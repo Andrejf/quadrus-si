@@ -47,8 +47,6 @@
       href="favicon-128.png"
     />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <base href="https://andrejf.github.io/quadrus-si/" />
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5N3HGKPWB"></script>
 <script>
@@ -82,19 +80,19 @@
     <script type="module">
       const defaultLocale = "en";
       var newLocale = document.documentElement.lang;
-      var newLocalePath = location.href + "assets/lang/" + newLocale + ".js";
+      var newLocalePath = "/quadrus-si/assets/lang/" + newLocale + ".js";
       var addScript = document.createElement('script');
       addScript.type = "module";
 	    addScript.src = newLocalePath;
       var head = document.getElementsByTagName("head")[0]
       head.insertBefore(addScript, head.firstChild);
     </script>
-    <script type="module" crossorigin src="https://andrejf.github.io/quadrus-si/assets/index.js"></script>
-    <link rel="modulepreload" href="https://andrejf.github.io/quadrus-si/assets/vendor.92a689d9.js">
-    <link rel="stylesheet" href="assets/index.d2346360.css">
+    <script type="module" crossorigin src="/quadrus-si/assets/index.js"></script>
+    <link rel="modulepreload" href="/quadrus-si/assets/vendor.92a689d9.js">
+    <link rel="stylesheet" href="/quadrus-si/assets/index.d2346360.css">
   </head>
   <body>
-    <noscript>Za uporabo te aplikacije morate omogočiti Javascript.</noscript>
+    <noscript>Vous devez activer Javascript pour utiliser cette application.</noscript>
     <div id="root"></div>
     
   </body>
