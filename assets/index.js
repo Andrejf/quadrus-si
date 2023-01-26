@@ -104,7 +104,7 @@ var et = Ke(Fe => {
         },
         ze = new Date("01/24/2022"),
         _e = re.day,
-        Ne = "abcdefghijklmnopqrstuvwxyz",
+        Ne = "abcčdefghijklmnoprsštuvzž",
         ls = keyboardLayout,
         ns = keyboardLayoutReversed,
         Ie = !!navigator.vibrate,
