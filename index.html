@@ -81,7 +81,7 @@
     <script type="module">
       const defaultLocale = "en";
       var newLocale = document.documentElement.lang;
-      var newLocalePath = "/assets/lang/" + newLocale + ".js";
+      var newLocalePath = location.href + "assets/lang/" + newLocale + ".js";
       var addScript = document.createElement('script');
       addScript.type = "module";
 	    addScript.src = newLocalePath;
