@@ -1,6 +1,6 @@
 # Štirdle (Slovenian version of Quordle)
 
-![Igraj Štirdle](https://andrejf.github.io/quadrus-si/)
+[Igraj Štirdle](https://andrejf.github.io/quadrus-si/)
 
 Preizkusite svoje spretnosti tako, da istočasno rešite 4 Wordle hkrati! Imate 9 poskusov, da rešite 4 besede. Vsak dan bo na voljo nova skupina 4 besed.<br/>
 <br/>
