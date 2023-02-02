@@ -1,11 +1,10 @@
-# Quadrus (version française de Quordle)
+# Štirdle (Slovenian version of Quordle)
 
-![Quadrus](https://quadrus.guigro.com/quadrus-banner-1200.png)
+![Igraj Štirdle](https://andrejf.github.io/quadrus-si/)
 
-Mettez votre talent à rude épreuve en résolvant simultanément 4 Wordle en même temps ! Vous avez 9 essais pour résoudre les 4 mots. Un nouveau groupe de 4 mots sera disponible chaque jour.<br/>
+Preizkusite svoje spretnosti tako, da istočasno rešite 4 Wordle hkrati! Imate 9 poskusov, da rešite 4 besede. Vsak dan bo na voljo nova skupina 4 besed.<br/>
 <br/>
-Jouez sur https://quadrus.guigro.com<br/>
-Version originale en anglais sur www.quordle.com<br/>
+Izvirna angleška različica na www.quordle.com<br/>
 <br/>
 HOW TO TRANSLATE IN YOUR LANGUAGE :<br/>  
 1/ In index.html, change the locale in the HTML tag. <br/>
