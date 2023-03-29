@@ -433,7 +433,7 @@ var et = Ke(Fe => {
                 deleteLetter: n,
                 submitCurrent: o,
                 resetDailyIfOld() {
-                    let diff = ze.setHours(12) - new Date().setHours(12);
+                    let diff = new Date().setHours(12) - ze.setHours(12);
                     const r = Math.round(diff/_e);
                     r !== s.daily.seed && t(K(u => {
                         u.daily.seed = r, u.daily.guesses = [], u.daily.answers = ne(r), u.daily.current = "", u.daily.states = [
