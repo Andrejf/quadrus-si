@@ -432,8 +432,12 @@ var et = Ke(Fe => {
                 addLetter: i,
                 deleteLetter: n,
                 submitCurrent: o,
+                dateDiff(d0, d1) {
+                    let diff = new Date(+d1).setHours(12) - new Date(+d0).setHours(12);
+                    return Math.round(diff/_e);
+                },
                 resetDailyIfOld() {
-                    const r = (new Date().getTime() - ze.getTime()) / _e >> 0;
+                    const r = dateDiff(ze, new Date());
                     r !== s.daily.seed && t(K(u => {
                         u.daily.seed = r, u.daily.guesses = [], u.daily.answers = ne(r), u.daily.current = "", u.daily.states = [
                             [],
